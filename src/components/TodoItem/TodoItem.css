@@ -1,0 +1,35 @@
+.content-item {
+    display: flex;
+    padding: 22px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-400, #333);
+    background: var(--Gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    margin: 15px 0;
+    align-self: stretch;
+}
+.Todo-content {
+    color: var(--Gray-100, #F2F2F2);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.TodoItem-p--complete {
+    color: var(--Gray-300, #808080);
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.delete-icon{
+    margin-left: auto;
+}
+
+.content-item span{
+    cursor: pointer;
+}

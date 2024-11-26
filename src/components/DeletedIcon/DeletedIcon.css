@@ -1,0 +1,6 @@
+.deleted-icon path{
+    fill: #808080;
+}
+.deleted-icon svg:hover path{
+    fill: red;
+}

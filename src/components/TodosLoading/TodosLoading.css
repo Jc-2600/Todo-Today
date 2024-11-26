@@ -1,0 +1,40 @@
+.icon-animate-loading {
+    height: 5rem;
+    margin: 2rem auto;
+    position: relative;
+    width: 5rem;
+
+    &:before,
+    &:after {
+        animation: icon-animate-loading 1.8s infinite cubic-bezier(0.35, 0, 0.25, 1);
+        border-radius: 50%;
+        border: 0.4rem solid #58dbc2;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: scale(0.1);
+    }
+
+    &:after {
+        animation-delay: 0.9s;
+    }
+
+}
+
+@keyframes icon-animate-loading {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,75 @@
+form {
+    width: 40%;
+    display: flex;
+    padding: 2em;
+    border-radius: 8px;
+    background: var(--Gray-600, #1A1A1A);
+    border: 1px solid white;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--Gray-400, #333);
+    gap: 20px;
+    position: relative;
+}
+
+textarea {
+    border-radius: 8px;
+    border: 1px solid var(--Gray-700, #0D0D0D);
+    background: var(--Gray-500, #262626);
+    color: var(--Gray-300, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    resize: none;
+    padding: 25px;
+    margin: 0em 2em;
+}
+
+label {
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.TodoForm-buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 2em 0em 2em;
+}
+
+.TodoForm-button--cancel {
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Inter;
+    background-color: rgb(224, 59, 59);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.TodoForm-button--add {
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Inter;
+    background-color: #4EA8DE;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.close-modal {  
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    color: #FAFAFA;
+    z-index: 1;
+}

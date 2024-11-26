@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background: var(--Gray-600, #1A1A1A);
+  font-family: "Inter", sans-serif;
+}
+
+
+
+.App-header {
+  background-color: #233553;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #97ca3f;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-void,
+.loading-msg {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.error-msg {
+  color: yellowgreen;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.app-container {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
